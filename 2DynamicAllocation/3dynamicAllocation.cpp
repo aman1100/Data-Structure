@@ -55,7 +55,7 @@ int main()
 		}
 	}
 	cout<<max<<endl;
-
+	delete [] p1; //To delete an dynamic array simply write delete [] (array symbol) p1 (array name)
 
 //Some most important points about stack memory allocation and heap memory allocation
 //stack automatically release the memory based on scope of variable.
